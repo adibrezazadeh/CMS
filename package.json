@@ -1,0 +1,22 @@
+{
+  "name": "cms2partnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "rollup -c",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "load-script": "^2.0.0",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
